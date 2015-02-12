@@ -1,0 +1,15 @@
+---
+baseurl: "http://ostrichzero.com"
+languageCode: "en-us"
+title: "OstrichZero"
+params:
+    GoogleAnalyticsId: ""
+    FullName: "OstrichZero"
+    AvatarImage: ""
+    BannerImage: "website_banner.png"
+    Github: ""
+    Twitter: ""
+    Stackoverflow: ""
+    Linkedin: ""
+    SiteTitle: "OstrichZero"
+---

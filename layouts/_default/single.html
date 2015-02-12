@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<i>SINGLE POST HEADER</i>
+<article>
+    <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
+    <p>{{ .Content }}</p>
+</article>
+
+{{ if .Next }}
+<a href={{ .Next.Permalink }}>Previous</a>
+{{ end }}
+
+{{ if .Prev }}
+<a href={{ .Prev.Permalink }}>Next</a>
+{{ end }}
+
+{{ partial "footer.html" . }}

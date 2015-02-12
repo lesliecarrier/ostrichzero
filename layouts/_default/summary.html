@@ -1,0 +1,15 @@
+<h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+<i>{{ .Date.Format "Mon, Jan 2, 2006" }}</i>
+<p>
+{{ .Summary }}
+</p>
+<a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+<ul>
+ts
+{{ range .Params.tags }}
+    <li>
+    TAGS
+    {{ . }}
+    </li>
+{{ end }}
+</ul>

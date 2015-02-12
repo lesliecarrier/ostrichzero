@@ -1,0 +1,31 @@
+@font-face
+  font-family:"dinosaursonar"
+  src: url("fonts/DinosaurSonar.ttf")
+
+
+$body-color: #EEEEEE
+$body-color: #FFFFFF
+$banner-color: #FFFFFF
+$container-color: #FFFFFF
+$header-color: #674172
+$header-font: "dinosaursonar"
+
+.container-fluid, header
+  background-color: $banner-color
+
+.container
+  background: $container-color
+  min-height: 700px
+
+body
+  background-color: $body-color
+
+header
+  padding: 15px 0px
+
+header>a>h1
+  color: $header-color
+
+h1
+  font-family: $header-font
+  font-size: 50px

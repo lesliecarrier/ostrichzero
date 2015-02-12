@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<h3>Archive</h3>
+<ul>
+{{ range .Data.Pages.ByDate.Reverse }}
+    <li>
+        <!--{{ .Render "summary" }}-->
+        <a href="{{ .Permalink }}">{{ .Title }} - <small>{{ .Date.Format "Jan 6, 2006" }}</small></a>
+    </li>
+{{ end }}
+</ul>
+{{ partial "footer.html" }}

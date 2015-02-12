@@ -1,0 +1,13 @@
+{
+  "watchers": [
+    {
+      "extension": "gcss",
+      "excludes": ["all.gcss"],
+      "tasks": [
+        {
+          "command": "make"
+        }
+      ]
+    }
+  ]
+}
