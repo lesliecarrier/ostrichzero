@@ -7,6 +7,7 @@ $(CSS_TARGET): $(GCSS_SOURCE)
 	cat $^ | gcss >$@
 
 watch:
+	rm -rf ./public
 	-killall goat
 	goat &
 	hugo server --buildDrafts --watch

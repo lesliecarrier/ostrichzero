@@ -4,6 +4,7 @@
 <article>
     <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
     <p>{{ .Content }}</p>
+    <img src={{ .Params.image_name }} />
 </article>
 
 {{ if .Next }}
