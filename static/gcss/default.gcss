@@ -1,6 +1,3 @@
-@font-face
-  font-family:"dinosaursonar"
-  src: url("fonts/DinosaurSonar.ttf")
 
 
 $body-color: #EEEEEE

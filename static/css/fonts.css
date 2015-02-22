@@ -1,0 +1,7 @@
+  @font-face {
+    font-family:"dinosaursonar";
+    src: url('fonts/DinosaurSonar.tff');
+    src: url('fonts/DinosaurSonar.tff') format('embedded-opentype'), url('fonts/DinosaurSonar.tff') format('woff2'), url('fonts/DinosaurSonar.tff') format('woff'), url('fonts/DinosaurSonar.tff') format('truetype'), url('fonts/DinosaurSonar.tff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
