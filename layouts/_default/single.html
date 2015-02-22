@@ -7,12 +7,14 @@
     <img src={{ .Params.image_name }} />
 </article>
 
-{{ if .Next }}
-<a href={{ .Next.Permalink }}>Previous</a>
-{{ end }}
 
 {{ if .Prev }}
-<a href={{ .Prev.Permalink }}>Next</a>
+<a href={{ .Prev.Permalink }}>Previous</a>
 {{ end }}
+
+{{ if .Next }}
+<a href={{ .Next.Permalink }}>Next</a>
+{{ end }}
+
 
 {{ partial "footer.html" . }}
