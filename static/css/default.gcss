@@ -1,6 +1,6 @@
 @font-face
   font-family:"dinosaursonar"
-  src: url("fonts/DinosaurSonar.ttf")
+  src: url('fonts/DinosaurSonar.ttf'), url('fonts/DinosaurSonar.ttf') format('woff'), url('fonts/DinosaurSonar.ttf') format('truetype'), url('fonts/DinosaurSonar.ttf') format('svg');
 
 
 $body-color: #EEEEEE
