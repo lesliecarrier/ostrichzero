@@ -1,20 +1,5 @@
 {{ partial "header.html" . }}
 
-<i>SINGLE POST HEADER</i>
-<article>
-    <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
-    <p>{{ .Content }}</p>
-    <img src={{ .Params.image_name }} />
-</article>
-
-
-{{ if .Prev }}
-<a href={{ .Prev.Permalink }}>Previous</a>
-{{ end }}
-
-{{ if .Next }}
-<a href={{ .Next.Permalink }}>Next</a>
-{{ end }}
-
+{{ partial "single_view.html" . }}
 
 {{ partial "footer.html" . }}

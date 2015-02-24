@@ -1,20 +1,12 @@
 {{ partial "header.html" . }}
 
-<div class="panel">
-  <h2>Welcome...</h2>
-</div>
 
 <div class="posts">
-    <ul>
-    {{ range where .Data.Pages "Section" "" }}
-    <li>
-        <h1>
-            <a href="{{ .Permalink }}"> {{ .Title }}</a>
-        </h1>
-        <span>{{ .Date.Format "Jan 2 2006" }}</span>
-    </li>
-    {{ end }}
-  </ul>
+
+  {{ range first 1 (where .Data.Pages.Reverse "Section" "comics") }}
+
+    {{ partial "single_view.html" . }}
+  {{ end }}
 </div>
 
 {{ partial "footer.html" . }}

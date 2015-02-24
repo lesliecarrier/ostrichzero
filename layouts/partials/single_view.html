@@ -1,0 +1,20 @@
+<article>
+    <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
+    <p>{{ .Content }}</p>
+    {{ if .Next }}
+      <a href={{ .Next.Permalink }}>
+        <img src={{ .Params.image_name }} style="width:70%"/>
+      </a>
+    {{ else }}
+      <img src={{ .Params.image_name }} style="width:70%"/>
+    {{ end }}
+</article>
+
+
+{{ if .Prev }}
+<a href={{ .Prev.Permalink }}>Previous</a>
+{{ end }}
+
+{{ if .Next }}
+<a href={{ .Next.Permalink }}>Next</a>
+{{ end }}
