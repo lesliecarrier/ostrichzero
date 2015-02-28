@@ -2,11 +2,9 @@
 
 
 <div class="posts">
-
-  {{ range first 1 (where .Data.Pages.Reverse "Section" "comics") }}
-
+  {{ range .Data.Pages }}{{ if eq .Section "comics" }}
     {{ partial "single_view.html" . }}
-  {{ end }}
+  {{ end }}{{ end }}
 </div>
 
 {{ partial "footer.html" . }}
