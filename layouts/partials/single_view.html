@@ -1,20 +1,34 @@
-<article>
+<div class="cartoonContainer center-block">
+
     <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
-    <p>{{ .Content }}</p>
-    {{ if .Next }}
-      <a href={{ .Next.Permalink }}>
-        <img src={{ .Params.image_name }} style="width:70%"/>
-      </a>
-    {{ else }}
-      <img src={{ .Params.image_name }} style="width:70%"/>
-    {{ end }}
-</article>
+    <div class="cartoonImgContainer">
+      {{ if .Params.next_post_path }}
+        <a href={{ .Params.next_post_path }}>
+          <img src={{ .Params.image_name }} style="max-width:900px; margin:auto;"/>
+        </a>
+      {{ else }}
+          <img src={{ .Params.image_name }} style="max-width:900px; margin:auto;"/>
+      {{ end }}
+    </div>
 
 
-{{ if .Prev }}
-<a href={{ .Prev.Permalink }}>Previous</a>
-{{ end }}
 
-{{ if .Next }}
-<a href={{ .Next.Permalink }}>Next</a>
-{{ end }}
+  {{ if .Params.previous_post_path }}
+  <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+  {{ end }}
+
+
+  {{ if .Params.previous_post_path }}
+  <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+  {{ end }}
+
+  {{ if .Params.next_post_path }}
+  <a href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+  {{ end }}
+
+  {{ if .Params.next_post_path }}
+  <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+  {{ end }}
+
+
+</div>

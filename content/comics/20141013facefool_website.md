@@ -1,6 +1,6 @@
 ---
 title: Facefool
-date: "2015-02-22"
+date: "2014-10-13"
 image_name: http://static.ostrichzero.com/images/comics/20141013facefool_website.png
 previous_image: http://static.ostrichzero.com/images/comics/20141012_HowToTuskenRaid.png
 next_image: http://static.ostrichzero.com/images/comics/20141025_cropdusting.png

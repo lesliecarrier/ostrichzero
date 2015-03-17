@@ -1,9 +1,8 @@
-$body-color: #EEEEEE
-$body-color: #FFFFFF
-$banner-color: #FFFFFF
-$container-color: #FFFFFF
+$body-color: #FEFEFE
+$banner-color: #FEFEFE
+$container-color: #FEFEFE
 $header-color: #674172
-$header-font: "dinosaursonar"
+$website-font: "dinosaursonar"
 
 .container-fluid, header
   background-color: $banner-color
@@ -14,6 +13,11 @@ $header-font: "dinosaursonar"
 
 body
   background-color: $body-color
+  font-family: $website-font
+  font-size: 30px
+
+div.cartoonContainer
+  max-width: 900px
 
 header
   padding: 15px 0px
@@ -22,5 +26,5 @@ header>a>h1
   color: $header-color
 
 h1
-  font-family: $header-font
+  font-family: $website-font
   font-size: 50px
