@@ -13,22 +13,22 @@
 
 
 
-  {{ if .Params.previous_post_path }}
-  <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
-  {{ end }}
+    {{ if .Params.previous_post_path }}
+    <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+    {{ end }}
 
 
-  {{ if .Params.previous_post_path }}
-  <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
-  {{ end }}
+    {{ if .Params.previous_post_path }}
+    <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+    {{ end }}
 
-  {{ if .Params.next_post_path }}
-  <a href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
-  {{ end }}
+    {{ if .Params.next_post_path }}
+    <a href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+    {{ end }}
 
-  {{ if .Params.next_post_path }}
-  <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
-  {{ end }}
+    {{ if .Params.next_post_path }}
+    <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+    {{ end }}
 
 
 </div>
