@@ -1,10 +1,29 @@
 {{ partial "header.html" . }}
 
+<div class="cartoonContainer center-block">
 
-<div class="posts">
-  {{ range .Data.Pages }}{{ if eq .Section "comics" }}
-    {{ partial "single_view.html" . }}
-  {{ end }}{{ end }}
+    <h1>{{ .Site.Params.title }} - <i>{{ .Site.Params.date }}</i></h1>
+
+    <div class="navigationLeftContainer">
+      <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+
+      {{ if .Site.Params.previous_post_path }}
+      <a class="prevImg" href={{ .Site.Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+      {{ end }}
+    </div>
+
+    <div class="cartoonImgContainer">
+      <img src={{ .Site.Params.image_name }} />
+    </div>
+
+    <div class="navigationLeftContainer">
+      <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+
+      {{ if .Site.Params.previous_post_path }}
+      <a class="prevImg" href={{ .Site.Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+      {{ end }}
+    </div>
+
 </div>
 
 {{ partial "footer.html" . }}

@@ -1,34 +1,61 @@
-<div class="cartoonContainer center-block">
+<div class="cartoonContainer center-block" id="comic">
 
     <h1>{{ .Title }} - <i>{{ .Date.Format "Jan 2, 2006" }}</i></h1>
+
+    <div class="row">
+      <div class="navigationLeftContainer col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        {{ if .Params.previous_post_path }}
+        <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+        {{ end }}
+
+
+        {{ if .Params.previous_post_path }}
+        <a class="prevImg" href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+        {{ end }}
+      </div>
+
+      <div class="navigationRightContainer col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        {{ if .Params.next_post_path }}
+        <a class="nextImg" href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+        {{ end }}
+
+        {{ if .Params.next_post_path }}
+        <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+        {{ end }}
+      </div>
+    </div>
+
     <div class="cartoonImgContainer">
       {{ if .Params.next_post_path }}
         <a href={{ .Params.next_post_path }}>
-          <img src={{ .Params.image_name }} style="max-width:900px; margin:auto;"/>
+          <img src={{ .Params.image_name }} />
         </a>
       {{ else }}
-          <img src={{ .Params.image_name }} style="max-width:900px; margin:auto;"/>
+          <img src={{ .Params.image_name }} />
       {{ end }}
     </div>
 
 
+    <div class="row">
+      <div class="navigationLeftContainer col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        {{ if .Params.previous_post_path }}
+        <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+        {{ end }}
 
-    {{ if .Params.previous_post_path }}
-    <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
-    {{ end }}
+        {{ if .Params.previous_post_path }}
+        <a class="prevImg" href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+        {{ end }}
+      </div>
 
+      <div class="navigationRightContainer col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        {{ if .Params.next_post_path }}
+        <a class="nextImg" href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+        {{ end }}
 
-    {{ if .Params.previous_post_path }}
-    <a href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
-    {{ end }}
-
-    {{ if .Params.next_post_path }}
-    <a href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
-    {{ end }}
-
-    {{ if .Params.next_post_path }}
-    <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
-    {{ end }}
-
+        {{ if .Params.next_post_path }}
+        <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+        {{ end }}
+      </div>
+    </div>
 
 </div>

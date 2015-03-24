@@ -1,8 +1,14 @@
 $body-color: #FEFEFE
 $banner-color: #FEFEFE
 $container-color: #FEFEFE
-$header-color: #674172
-$website-font: "dinosaursonar"
+$font-color: #333333
+$website-font: "dinosaursonar", sans-serif
+
+a
+  color: $font-color
+
+a:hover
+  text-decoration: none
 
 .container-fluid, header
   background-color: $banner-color
@@ -15,6 +21,14 @@ body
   background-color: $body-color
   font-family: $website-font
   font-size: 30px
+  color: $font-color
+
+ul
+  margin: 0px
+  padding: 0px
+
+ul li
+  list-style-type: none
 
 div.cartoonContainer
   max-width: 900px
@@ -22,9 +36,22 @@ div.cartoonContainer
 header
   padding: 15px 0px
 
-header>a>h1
-  color: $header-color
+.bannerImg
+  border-bottom: 3px solid $font-color
+  width: 1160px
 
 h1
   font-family: $website-font
   font-size: 50px
+
+.navigationLeftContainer
+  text-align: left
+  padding-top: 10px
+
+.navigationRightContainer
+  text-align: right
+  padding-top: 10px
+
+.cartoonImgContainer img
+  max-width: 900px
+  margin: auto

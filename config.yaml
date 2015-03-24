@@ -3,7 +3,7 @@ baseurl: "http://ostrichzero.com"
 languageCode: "en-us"
 title: "OstrichZero"
 params:
-    GoogleAnalyticsId: ""
+    GoogleAnalyticsId: "UA-26604080-3"
     FullName: "OstrichZero"
     AvatarImage: ""
     BannerImage: "graphics/website_banner.png"
@@ -11,5 +11,10 @@ params:
     Twitter: ""
     Stackoverflow: ""
     Linkedin: ""
+    title: It's Monday
+    date: "Mar 1, 2015"
     SiteTitle: "OstrichZero"
+    image_name: http://static.ostrichzero.com/images/comics/20150301_mondayowl.png
+    previous_image: http://static.ostrichzero.com/images/comics/20150115_bears.png
+    previous_post_path: comics/20150115_bears
 ---
