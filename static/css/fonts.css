@@ -1,7 +1,12 @@
-  @font-face {
-    font-family:"dinosaursonar", sans-serif;
-    src: url('../fonts/DinosaurSonar.ttf');
-    src: url('../fonts/DinosaurSonar.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+      font-family: 'dinosaursonar ';
+      src: url('../fonts/DinosaurSonar-webfont.eot');
+      src: url('../fonts/DinosaurSonar-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/DinosaurSonar-webfont.woff2') format('woff2'),
+           url('../fonts/DinosaurSonar-webfont.woff') format('woff'),
+           url('../fonts/DinosaurSonar-webfont.ttf') format('truetype'),
+           url('../fonts/DinosaurSonar-webfont.svg#dinosaursonarmedium') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+}

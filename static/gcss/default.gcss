@@ -20,6 +20,7 @@ a:hover
 body
   background-color: $body-color
   font-family: $website-font
+  font-face: $website-font
   font-size: 30px
   color: $font-color
 
@@ -51,7 +52,8 @@ h1
 .navigationRightContainer
   text-align: right
   padding-top: 10px
+  text-align:center
 
 .cartoonImgContainer img
-  max-width: 900px
+  max-width: 700px
   margin: auto
