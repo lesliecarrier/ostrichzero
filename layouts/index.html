@@ -5,22 +5,22 @@
     <h1>{{ .Site.Params.title }} - <i>{{ .Site.Params.date }}</i></h1>
 
     <div class="navigationLeftContainer">
-      <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+      <a href="comics/20140914_danceparty/#comic"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
 
       {{ if .Site.Params.previous_post_path }}
-      <a class="prevImg" href={{ .Site.Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+      <a class="prevImg" href={{ .Site.Params.previous_post_path }}/#comic><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
       {{ end }}
     </div>
 
     <div class="cartoonImgContainer">
-      <img src={{ .Site.Params.image_name }} />
+      <img class="img-responsive" src={{ .Site.Params.image_name }} />
     </div>
 
     <div class="navigationLeftContainer">
-      <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+      <a href="comics/20140914_danceparty/#comic"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
 
       {{ if .Site.Params.previous_post_path }}
-      <a class="prevImg" href={{ .Site.Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+      <a class="prevImg" href={{ .Site.Params.previous_post_path }}/#comic><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
       {{ end }}
     </div>
 

@@ -5,33 +5,33 @@
     <div class="row">
       <div class="navigationLeftContainer col-xs-6 col-sm-6 col-md-6 col-lg-6">
         {{ if .Params.previous_post_path }}
-        <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+        <a href="comics/20140914_danceparty/#comic"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
         {{ end }}
 
 
         {{ if .Params.previous_post_path }}
-        <a class="prevImg" href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+        <a class="prevImg" href={{ .Params.previous_post_path }}/#comic><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
         {{ end }}
       </div>
 
       <div class="navigationRightContainer col-xs-6 col-sm-6 col-md-6 col-lg-6">
         {{ if .Params.next_post_path }}
-        <a class="nextImg" href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+        <a class="nextImg" href={{ .Params.next_post_path }}/#comic><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
         {{ end }}
 
         {{ if .Params.next_post_path }}
-        <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+        <a href="/#comic"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
         {{ end }}
       </div>
     </div>
 
     <div class="cartoonImgContainer">
       {{ if .Params.next_post_path }}
-        <a href={{ .Params.next_post_path }}>
-          <img src={{ .Params.image_name }} />
+        <a href={{ .Params.next_post_path }}/#comic>
+          <img class="img-responsive" src={{ .Params.image_name }} />
         </a>
       {{ else }}
-          <img src={{ .Params.image_name }} />
+          <img class="img-responsive" src={{ .Params.image_name }} />
       {{ end }}
     </div>
 
@@ -39,21 +39,21 @@
     <div class="row">
       <div class="navigationLeftContainer col-xs-6 col-sm-6 col-md-6 col-lg-6">
         {{ if .Params.previous_post_path }}
-        <a href="comics/20140914_danceparty"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
+        <a href="comics/20140914_danceparty/#comic"><span class="glyphicon glyphicon-step-backward" title="First"></span></a>
         {{ end }}
 
         {{ if .Params.previous_post_path }}
-        <a class="prevImg" href={{ .Params.previous_post_path }}><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
+        <a class="prevImg" href={{ .Params.previous_post_path }}/#comic><span class="glyphicon glyphicon-chevron-left" title="Previous"></span></a>
         {{ end }}
       </div>
 
       <div class="navigationRightContainer col-xs-6 col-sm-6 col-md-6 col-lg-6">
         {{ if .Params.next_post_path }}
-        <a class="nextImg" href={{ .Params.next_post_path }}><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
+        <a class="nextImg" href={{ .Params.next_post_path }}/#comic><span class="glyphicon glyphicon-chevron-right" title="Next"></span></a>
         {{ end }}
 
         {{ if .Params.next_post_path }}
-        <a href="/"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
+        <a href="/#comic"><span class="glyphicon glyphicon-step-forward" title="Latest"></span></a>
         {{ end }}
       </div>
     </div>

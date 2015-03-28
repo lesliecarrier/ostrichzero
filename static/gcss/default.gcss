@@ -4,6 +4,11 @@ $container-color: #FEFEFE
 $font-color: #333333
 $website-font: "dinosaursonar", sans-serif
 
+.container-fluid
+  margin-right: auto
+  margin-left: auto
+  max-width: 1160px
+
 a
   color: $font-color
 
@@ -41,9 +46,6 @@ ul
 ul li
   list-style-type: none
 
-div.cartoonContainer
-  max-width: 700px
-
 header
   padding: 15px 0px
 
@@ -66,6 +68,6 @@ h2
   text-align: right
   padding-top: 10px
 
+
 .cartoonImgContainer img
-  max-width: 700px
   margin: auto
