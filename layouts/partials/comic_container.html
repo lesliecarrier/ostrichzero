@@ -1,0 +1,9 @@
+<div class="cartoonImgContainer">
+  {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}#comic">
+      <img class="img-responsive" src="{{ .Params.image_name }}" />
+    </a>
+  {{ else }}
+      <img class="img-responsive" src="{{ .Params.image_name }}" />
+  {{ end }}
+</div>
