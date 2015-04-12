@@ -19,9 +19,11 @@ dep:
 
 build-container:
 	hugo
-	docker build -t lesliecarrier/ostrichzero.com .
+	docker build -t lesliecarrier/ostrichzero .
+
+destroy-container:
 	-docker kill ostrichzero.com
 	-docker rm ostrichzero.com
 
 run-container:
-	docker run -d -p 5006:80 --name ostrichzero.com lesliecarrier/ostrichzero.com
+	docker run -d -p 5006:80 --name ostrichzero.com lesliecarrier/ostrichzero
