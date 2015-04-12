@@ -27,3 +27,6 @@ destroy-container:
 
 run-container:
 	docker run -d -p 5006:80 --name ostrichzero.com lesliecarrier/ostrichzero
+
+sync-images:
+	./deploy.sh
