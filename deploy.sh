@@ -1,11 +1,11 @@
 #!/bin/sh
 source config.sh
 git diff-index --quiet HEAD
-if [ $? -ne 0 ]; then
-    echo Working directory dirty!
-    echo Did you set the baseUrl in config.yaml?
-    exit 1
-fi
+#   if [ $? -ne 0 ]; then
+#       echo Working directory dirty!
+#       echo Did you set the baseUrl in config.yaml?
+#       exit 1
+#   fi
 
 if [ "$hugo_gallery_domain" == "" ]; then
     echo "Missing configuration values"
