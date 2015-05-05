@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+
+<head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:site_name" content="OstrichZero">
+    <meta property="og:url" content="https://ostrichzero.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ .Params.image_name }}" />
+
     <base href="{{ .Site.BaseUrl }}">
     <title> {{ .Title }} </title>
     <link rel="canonical" href="{{ .Permalink }}">
