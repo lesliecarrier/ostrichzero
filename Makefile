@@ -19,6 +19,7 @@ dep:
 
 build-container:
 	hugo
+	./deploy.sh
 	docker build -t lesliecarrier/ostrichzero .
 
 destroy-container:
