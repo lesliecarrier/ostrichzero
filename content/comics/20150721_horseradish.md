@@ -1,7 +1,7 @@
 ---
-title: Fun Size
-date: "2015-07-14"
-image_name: https://static.ostrichzero.com/images/comics/20150714_funsize.png
-previous_image: https://static.ostrichzero.com/images/comics/20150712_cake.png
+title: Horseradish
+date: "2015-07-21"
+image_name: https://static.ostrichzero.com/images/comics/20150721_horseradish.png
+previous_image: https://static.ostrichzero.com/images/comics/20150714_funsize.png
 next_image:
 ---
