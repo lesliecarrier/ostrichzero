@@ -14,8 +14,8 @@ fi
 
 echo "Uploading to Domain $hugo_gallery_domain"
 
-echo "CSS"
-s3cmd sync public/css/ s3://$hugo_gallery_domain/css/
+#echo "CSS"
+#s3cmd sync public/css/ s3://$hugo_gallery_domain/css/
 
 echo "IMAGES"
 s3cmd sync public/images/ s3://$hugo_gallery_domain/images/
