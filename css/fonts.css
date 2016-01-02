@@ -1,0 +1,18 @@
+@font-face {
+      font-family: 'DinosaurSonar-webfont';
+      src: url('../fonts/DinosaurSonar-webfont.eot');
+      src: url('../fonts/DinosaurSonar-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/DinosaurSonar-webfont.woff2') format('woff2'),
+           url('../fonts/DinosaurSonar-webfont.woff') format('woff'),
+           url('../fonts/DinosaurSonar-webfont.ttf') format('truetype'),
+           url('../fonts/DinosaurSonar-webfont.svg#dinosaursonarmedium') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+}
+
+@media only screen and (min-width:1000px) {
+    div.cartoonContainer {
+      max-width: 700px;
+    }
+  }
