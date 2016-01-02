@@ -6,8 +6,14 @@ css: $(CSS_TARGET)
 $(CSS_TARGET): $(GCSS_SOURCE)
 	cat $^ | gcss >$@
 
+build:
+	hugo
+	./deploy.sh
+
+sync-images:
+	./deploy.sh
+
 watch:
-	rm -rf ./public
 	-killall goat
 	goat &
 	hugo server --buildDrafts --watch
@@ -16,22 +22,3 @@ watch:
 dep:
 	go get github.com/yosssi/goat/...
 	go get -u github.com/yosssi/gcss/...
-
-build-container:
-	hugo
-	./deploy.sh
-	docker build -t lesliecarrier/ostrichzero .
-
-destroy-container:
-	-docker kill ostrichzero.com
-	-docker rm ostrichzero.com
-
-run-container:
-	docker run -d -p 5006:80 --name ostrichzero.com lesliecarrier/ostrichzero
-
-push-container:
-	./deploy.sh
-	docker push lesliecarrier/ostrichzero
-
-sync-images:
-	./deploy.sh
