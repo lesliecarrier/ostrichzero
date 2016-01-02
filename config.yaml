@@ -6,7 +6,7 @@ params:
     GoogleAnalyticsId: "UA-26604080-3"
     FullName: "OstrichZero"
     AvatarImage: ""
-    BannerImage: "graphics/website_banner.png"
+    BannerImage: "/graphics/website_banner.png"
     Github: ""
     Twitter: ""
     Stackoverflow: ""
