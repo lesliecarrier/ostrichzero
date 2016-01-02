@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cake Gate</title>
+      <link>https://ostrichzero.com/comics/20151129_cakegate/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20151129_cakegate/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Koala Kommander</title>
@@ -132,15 +141,6 @@
       <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20150629_cerealoffer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pizza</title>
-      <link>https://ostrichzero.com/comics/20150602_pizza/</link>
-      <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20150602_pizza/</guid>
       <description></description>
     </item>
     
