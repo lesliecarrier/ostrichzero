@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sleepy Time</title>
+      <link>https://ostrichzero.com/comics/20160217_sleepytime/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20160217_sleepytime/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cake Gate</title>
@@ -132,15 +141,6 @@
       <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20150712_cake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cereal Offer</title>
-      <link>https://ostrichzero.com/comics/20150629_cerealoffer/</link>
-      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20150629_cerealoffer/</guid>
       <description></description>
     </item>
     
