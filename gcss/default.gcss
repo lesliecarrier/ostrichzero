@@ -53,6 +53,19 @@ header
   border-bottom: 3px solid $font-color
   width: 1160px
 
+.nextImg
+  padding-right: 15px
+
+.prevImg
+  padding-left: 15px
+
+.nextImg, .prevImg, .firstImg, .lastImg
+  font-size: 60px
+  font-weight: bold
+
+.nextImg:hover
+  text-decoration: none
+
 h1
   font-family: $website-font
   font-size: 50px
@@ -62,11 +75,16 @@ h2
 
 .navigationLeftContainer
   text-align: left
-  padding-top: 10px
 
 .navigationRightContainer
   text-align: right
   padding-top: 10px
+
+.captionText
+  font-style: italic
+  font-size: 27px
+  text-align: center
+  margin-top: 10px
 
 @media only screen and (min-device-width: 600px)
   div.cartoonContainer
