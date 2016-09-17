@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Southern Charm Flamingo Party</title>
+      <link>https://ostrichzero.com/comics/20160917_flamingo/</link>
+      <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20160917_flamingo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Star Wars Product Placement</title>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20150811_officepranks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Party</title>
-      <link>https://ostrichzero.com/comics/20150807_party/</link>
-      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20150807_party/</guid>
       <description></description>
     </item>
     
