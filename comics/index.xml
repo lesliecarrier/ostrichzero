@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Roller Girl</title>
+      <link>https://ostrichzero.com/comics/20161027_rollergirl/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20161027_rollergirl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Southern Charm Flamingo Party</title>
@@ -132,15 +141,6 @@
       <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20150829_aerobics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Office Pranks</title>
-      <link>https://ostrichzero.com/comics/20150811_officepranks/</link>
-      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20150811_officepranks/</guid>
       <description></description>
     </item>
     
