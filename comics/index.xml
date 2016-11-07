@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Real Housewives of OC Recap</title>
+      <link>https://ostrichzero.com/comics/20161107_rhoc/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20161107_rhoc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Roller Girl</title>
@@ -132,15 +141,6 @@
       <pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20150920_pancakes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aerobics</title>
-      <link>https://ostrichzero.com/comics/20150829_aerobics/</link>
-      <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20150829_aerobics/</guid>
       <description></description>
     </item>
     
