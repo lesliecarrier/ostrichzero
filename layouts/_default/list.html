@@ -3,7 +3,7 @@
 <ul>
   {{ range .Data.Pages }}
     <li>
-      <a href="{{ .Permalink }}#comic">{{ .Title }} - <small>{{ .Date.Format "Jan 2, 2006" }}</small></a>
+      <a href="{{ .Permalink }}#comic">{{ .Title }} - <small style="color:#555555">{{ .Date.Format "Jan 2, 2006" }}</small></a>
     </li>
   {{ end }}
 </ul>
