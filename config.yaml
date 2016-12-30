@@ -1,7 +1,7 @@
 ---
 baseurl: "https://ostrichzero.com"
 languageCode: "en-us"
-title: "OstrichZero"
+title: "OstrichZero - Cartoons by Leslie Carrier"
 params:
     GoogleAnalyticsId: "UA-26604080-3"
     FullName: "OstrichZero"

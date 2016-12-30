@@ -28,15 +28,14 @@ a:hover
 #topNavigation a
   padding: 5px 10px 5px 10px
   font-size: 40px
+  font-family: $website-font
 
 #topNavigation a:last-child
   padding: 5px 0px 5px 10px
 
 body
   background-color: $body-color
-  font-family: $website-font
-  font-face: $website-font
-  font-size: 30px
+  font-size: 20px
   color: $font-color
 
 ul
@@ -66,12 +65,16 @@ header
 .nextImg:hover
   text-decoration: none
 
-h1
-  font-family: $website-font
+h1.headline
   font-size: 50px
 
-h2
+h1
+  font-family: $website-font
   font-size: 40px
+
+h2
+  font-size: 28px
+  font-weight: normal
 
 .navigationLeftContainer
   text-align: left
@@ -82,13 +85,25 @@ h2
 
 .captionText
   font-style: italic
-  font-size: 27px
+  font-size: 20px
   text-align: center
   margin-top: 10px
 
 @media only screen and (min-device-width: 600px)
   div.cartoonContainer
     max-width: 700px
+
+@media only screen and (max-device-width: 600px)
+  div#topNavigation a
+    font-size: 70px
+  h1
+    font-size: 60px
+  h1.headline
+    font-size: 80px
+  h2
+    font-size: 45px
+  .captionText
+    font-size: 35px
 
 .cartoonImgContainer img
   margin: auto
