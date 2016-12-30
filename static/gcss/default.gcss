@@ -3,6 +3,7 @@ $banner-color: #FEFEFE
 $container-color: #FEFEFE
 $font-color: #333333
 $website-font: "DinosaurSonar-webfont", sans-serif
+$body-font: "Helvetica Neue", Arial, sans-serif
 
 .container-fluid
   margin-right: auto
@@ -37,6 +38,7 @@ body
   background-color: $body-color
   font-size: 20px
   color: $font-color
+  font-family: $body-font
 
 ul
   margin: 0px
