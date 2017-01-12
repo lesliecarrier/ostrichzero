@@ -2,9 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ostrichzero.com/</loc>
-    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://ostrichzero.com/comics/20170111_clambake/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -183,16 +182,6 @@
   </url>
   
   <url>
-    <loc>https://ostrichzero.com/cartoons/apartment_site/</loc>
-    <lastmod>2015-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ostrichzero.com/cartoons/koalafications_site/</loc>
-    <lastmod>2015-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ostrichzero.com/comics/20150115_bears/</loc>
     <lastmod>2015-01-15T00:00:00+00:00</lastmod>
   </url>
@@ -245,6 +234,18 @@
   <url>
     <loc>https://ostrichzero.com/comics/20140914_danceparty/</loc>
     <lastmod>2014-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ostrichzero.com/comics/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ostrichzero.com/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
