@@ -6,8 +6,17 @@
     <description>Recent content in Comics on OstrichZero - Cartoons by Leslie Carrier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ostrichzero.com/comics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sad Tom</title>
+      <link>https://ostrichzero.com/comics/20170217_sadtom/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ostrichzero.com/comics/20170217_sadtom/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Teresa Flips a Table</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ostrichzero.com/comics/20161027_rollergirl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Southern Charm Flamingo Party</title>
-      <link>https://ostrichzero.com/comics/20160917_flamingo/</link>
-      <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ostrichzero.com/comics/20160917_flamingo/</guid>
       <description></description>
     </item>
     

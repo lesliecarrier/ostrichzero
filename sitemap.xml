@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ostrichzero.com/comics/20170217_sadtom/</loc>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ostrichzero.com/comics/20170216_teresa/</loc>
     <lastmod>2017-02-16T00:00:00+00:00</lastmod>
   </url>
@@ -268,13 +273,13 @@
   
   <url>
     <loc>https://ostrichzero.com/comics/</loc>
-    <lastmod>2017-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ostrichzero.com/</loc>
-    <lastmod>2017-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
